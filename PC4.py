@@ -190,11 +190,11 @@ else:
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Mis barritas':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>El gráfico muestra la cantidad de idiomas por familia lingüística en el Perú. Destaca la familia Quechuan con más de 30 lenguas, seguida por Arawakan, Pano-Tacanan y una categoría no clasificada (NK). Esto evidencia la gran diversidad lingüística del país y la predominancia de ciertas familias sobre otras.</div>", unsafe_allow_html=True)
-        st.image("newplot.png", caption='Mis barritas', width=500)
+        st.image("newplot.png", caption='Mis barritas', width=600)
         pass
     elif grafico_seleccionado == 'Nube':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>La nube de palabras refleja un intenso debate sobre la vacunación obligatoria, destacando términos como vacuna, vacunar, obligatoria y ser, que muestran preocupación y polémica en torno a su imposición. También aparecen referencias a redes sociales, enlaces y usuarios, evidenciando un contexto digital y conversacional. Palabras como impuestos, defectos y síntomas sugieren inquietudes sobre costos y efectos secundarios.</div>", unsafe_allow_html=True)
-        st.image("nube.png", caption='Gráfico de familias lingüísticas', width=500)
+        st.image("nube.png", caption='Gráfico de familias lingüísticas', width=600)
         pass
     elif grafico_seleccionado == 'Mi mapa':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>En el mapa interactivo, se pueden explorar las regiones donde se hablan estos idiomas. Permite ver cómo se distribuyen geográficamente las distintas lenguas indígenas, reforzando la idea de que muchas de ellas están profundamente ligadas a territorios específicos y comunidades.</div>", unsafe_allow_html=True)
@@ -202,7 +202,7 @@ else:
         import streamlit.components.v1 as components
         with open("mapita.html", "r", encoding="utf-8") as f:
             html_content = f.read()
-        components.html(html_content, height=500)
+        components.html(html_content, height=700)
         pass
 
     # if grafico_seleccionado == 'Gráfico de barras verticales de lenguas aisladas':
