@@ -100,7 +100,7 @@ if pagina_seleccionada == 'Inicio':
     # Permite insertar el valor de una variable directamente en la cadena. 
     # En este caso, {texto} se reemplaza por el valor de la variable texto.
 
-elif  pagina_seleccionada == 'Mi dolor de cabeza':
+elif  pagina_seleccionada == 'Experiencia':
 
     # Agregamos un título
     st.markdown("<h1 style='text-align: center;'>Mi dolor de cabeza</h1>", unsafe_allow_html=True)
