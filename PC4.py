@@ -196,7 +196,7 @@ else:
         st.markdown("<div style='text-align: justify; font-size: 20px;'>La nube de palabras refleja un intenso debate sobre la vacunación obligatoria, destacando términos como vacuna, vacunar, obligatoria y ser, que muestran preocupación y polémica en torno a su imposición. También aparecen referencias a redes sociales, enlaces y usuarios, evidenciando un contexto digital y conversacional. Palabras como impuestos, defectos y síntomas sugieren inquietudes sobre costos y efectos secundarios.</div>", unsafe_allow_html=True)
         st.image("nube.png", caption='Gráfico de familias lingüísticas', width=500)
         pass
-    elif grafico_seleccionado == 'Mi mapa':
+    elif grafico_seleccionado == 'Mapa':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>En el mapa interactivo, se pueden explorar las regiones donde se hablan estos idiomas. Permite ver cómo se distribuyen geográficamente las distintas lenguas indígenas, reforzando la idea de que muchas de ellas están profundamente ligadas a territorios específicos y comunidades.</div>", unsafe_allow_html=True)
         # Si "mapa.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
