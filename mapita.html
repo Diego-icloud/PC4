@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7e4048cabbebc288489ee43378791553 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7e4048cabbebc288489ee43378791553" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7e4048cabbebc288489ee43378791553 = L.map(
+                "map_7e4048cabbebc288489ee43378791553",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_96ce8aac53a0d35048ee7896002c0296 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_96ce8aac53a0d35048ee7896002c0296.addTo(map_7e4048cabbebc288489ee43378791553);
+        
+    
+            var marker_03620ce320ee1c529082175b2d4bc355 = L.marker(
+                [33.7488, -84.388],
+                {
+}
+            ).addTo(map_7e4048cabbebc288489ee43378791553);
+        
+    
+            var icon_2d15002d883b2e1ee713afe18aa52cbc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1e09c7fdad67a255e120b35f2bc538bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_42985a4e8bfbac6b7d7e9a657350e013 = $(`<div id="html_42985a4e8bfbac6b7d7e9a657350e013" style="width: 100.0%; height: 100.0%;"><b>Avengers: Endgame</b><br>Director: Anthony y Joe Russo<br>Año: 2019</div>`)[0];
+                popup_1e09c7fdad67a255e120b35f2bc538bb.setContent(html_42985a4e8bfbac6b7d7e9a657350e013);
+            
+        
+
+        marker_03620ce320ee1c529082175b2d4bc355.bindPopup(popup_1e09c7fdad67a255e120b35f2bc538bb)
+        ;
+
+        
+    
+    
+                marker_03620ce320ee1c529082175b2d4bc355.setIcon(icon_2d15002d883b2e1ee713afe18aa52cbc);
+            
+    
+            var marker_9375d5188c693a36c5232062f8aa6ef0 = L.marker(
+                [-24.88, 16.15],
+                {
+}
+            ).addTo(map_7e4048cabbebc288489ee43378791553);
+        
+    
+            var icon_8e449a15df32300a980f92bbc9cac470 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c9921b1ec45edbf9c98f9284a31750f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bc25df58f639fbfc3cf7e0a68e341d5 = $(`<div id="html_3bc25df58f639fbfc3cf7e0a68e341d5" style="width: 100.0%; height: 100.0%;"><b>Mad Max: Fury Road</b><br>Director: George Miller<br>Año: 2015</div>`)[0];
+                popup_c9921b1ec45edbf9c98f9284a31750f9.setContent(html_3bc25df58f639fbfc3cf7e0a68e341d5);
+            
+        
+
+        marker_9375d5188c693a36c5232062f8aa6ef0.bindPopup(popup_c9921b1ec45edbf9c98f9284a31750f9)
+        ;
+
+        
+    
+    
+                marker_9375d5188c693a36c5232062f8aa6ef0.setIcon(icon_8e449a15df32300a980f92bbc9cac470);
+            
+    
+            var marker_33c3cdba2e2d300756ae96166d0761ff = L.marker(
+                [41.8781, -87.6298],
+                {
+}
+            ).addTo(map_7e4048cabbebc288489ee43378791553);
+        
+    
+            var icon_31c1dc8c80553806d8c4445a8d895476 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c1a147a571ad83a384bfdda1ff78497 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_da7e1e1879f7400372a259240563713c = $(`<div id="html_da7e1e1879f7400372a259240563713c" style="width: 100.0%; height: 100.0%;"><b>The Dark Knight</b><br>Director: Christopher Nolan<br>Año: 2008</div>`)[0];
+                popup_3c1a147a571ad83a384bfdda1ff78497.setContent(html_da7e1e1879f7400372a259240563713c);
+            
+        
+
+        marker_33c3cdba2e2d300756ae96166d0761ff.bindPopup(popup_3c1a147a571ad83a384bfdda1ff78497)
+        ;
+
+        
+    
+    
+                marker_33c3cdba2e2d300756ae96166d0761ff.setIcon(icon_31c1dc8c80553806d8c4445a8d895476);
+            
+    
+            var marker_43a8d8ca60da2b236ec59d4fa33a9e65 = L.marker(
+                [32.0835, -81.0998],
+                {
+}
+            ).addTo(map_7e4048cabbebc288489ee43378791553);
+        
+    
+            var icon_fc38fc00fc493470a87fef197ca9fdb7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cc7aaf9bbebcd23a09cf116eac2dbae7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f56a51e31d9b56ea37644b4da11befaf = $(`<div id="html_f56a51e31d9b56ea37644b4da11befaf" style="width: 100.0%; height: 100.0%;"><b>Forrest Gump</b><br>Director: Robert Zemeckis<br>Año: 1994</div>`)[0];
+                popup_cc7aaf9bbebcd23a09cf116eac2dbae7.setContent(html_f56a51e31d9b56ea37644b4da11befaf);
+            
+        
+
+        marker_43a8d8ca60da2b236ec59d4fa33a9e65.bindPopup(popup_cc7aaf9bbebcd23a09cf116eac2dbae7)
+        ;
+
+        
+    
+    
+                marker_43a8d8ca60da2b236ec59d4fa33a9e65.setIcon(icon_fc38fc00fc493470a87fef197ca9fdb7);
+            
+    
+            var marker_3dd348273701e2c9f11c4fefb27ad88f = L.marker(
+                [41.7, -72.6],
+                {
+}
+            ).addTo(map_7e4048cabbebc288489ee43378791553);
+        
+    
+            var icon_7b70067014a2cf82faed76001ed14cc7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cfdb1eb280f992998c05762313a12df0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecc8e1ed0fee8b68491e8a7b16d79cf3 = $(`<div id="html_ecc8e1ed0fee8b68491e8a7b16d79cf3" style="width: 100.0%; height: 100.0%;"><b>Dead Poets Society</b><br>Director: Peter Weir<br>Año: 1989</div>`)[0];
+                popup_cfdb1eb280f992998c05762313a12df0.setContent(html_ecc8e1ed0fee8b68491e8a7b16d79cf3);
+            
+        
+
+        marker_3dd348273701e2c9f11c4fefb27ad88f.bindPopup(popup_cfdb1eb280f992998c05762313a12df0)
+        ;
+
+        
+    
+    
+                marker_3dd348273701e2c9f11c4fefb27ad88f.setIcon(icon_7b70067014a2cf82faed76001ed14cc7);
+            
+</script>
+</html>
