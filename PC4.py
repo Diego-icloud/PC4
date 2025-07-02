@@ -200,7 +200,7 @@ else:
         st.markdown("<div style='text-align: justify; font-size: 20px;'>En el mapa interactivo, se pueden explorar las regiones donde se hablan estos idiomas. Permite ver cómo se distribuyen geográficamente las distintas lenguas indígenas, reforzando la idea de que muchas de ellas están profundamente ligadas a territorios específicos y comunidades.</div>", unsafe_allow_html=True)
         # Si "mapa.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
-        with open("mapa.html", "r", encoding="utf-8") as f:
+        with open("mapita.html", "r", encoding="utf-8") as f:
             html_content = f.read()
         components.html(html_content, height=500)
         pass
